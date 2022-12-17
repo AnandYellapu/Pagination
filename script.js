@@ -4,8 +4,8 @@ function createRow({ id, name, symbol, image, current_price, market_cap, market_
 	<td><img src=${image}  alt="image1" width=20px height=20px style="text-align:center;"></td>
 	<td>${symbol}</td>
 	<td>${name}</td>
-	<td>${current_price}</td>
-	<td>${market_cap}</td>
+	<td>$${current_price}</td>
+	<td>$${market_cap}</td>
 	<td>${market_cap_rank}</td>
 	<td>${total_volume}</td>
 	<td>${circulating_supply}</td>
